@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Arnab protfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 0, 8);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 65px;
+            background-color: rgb(13, 2, 32);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            /* padding: 4px; */
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(22, 51, 51);
+            /* font-size: 1.08rem; */
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+        .leftsection .buttons{
+            padding: 50px;
+        }
+        .leftsection .btn:hover{
+            background-color: rgb(50, 181, 35);
+        }
+        .leftsection .btn{
+            border: 2px solid white;
+            border-radius: 3px;
+            color: white;
+            background-color: rgb(50, 37, 62);
+            font-size: 20px;
+            padding: 2px;
+            cursor: pointer;
+        }
+        .rightsection img {
+            width: 80%;
+            border: 2px solid white;
+            border-radius: 180px;
+            box-shadow: 2px 12px 15px whitesmoke;
+            background-color: aqua;
+        }
+
+        .purple {
+            color: rgb(156, 103, 206);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: aqua;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            max-width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 93px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 100px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: rgb(2, 2, 22);
+            /* height: 255px; */
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        footer .footer-right{
+            text-align: center;
+            color: gray;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Arnab's protfolio</div>
+            <div class="righ">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi,My name is <span class="purple">Arnab</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="ab.png" alt="ab">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">what I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">
+                        HTML Developer - pintrest
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, in ex deleniti soluta commodi
+                        dolore distinctio eos at laboriosam ducimus voluptatem quasi repellat.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Node js Developer - Instagram
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, in ex deleniti soluta commodi
+                        dolore distinctio eos at laboriosam ducimus voluptatem quasi repellat.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        HTML Developer - Facebook
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, in ex deleniti soluta commodi
+                        dolore distinctio eos at laboriosam ducimus voluptatem quasi repellat.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        HTML Developer - Twitter
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, in ex deleniti soluta commodi
+                        dolore distinctio eos at laboriosam ducimus voluptatem quasi repellat.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, in ex deleniti soluta commodi
+                        dolore distinctio eos at laboriosam ducimus voluptatem quasi repellat.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        HTML Developer - Youtube
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, in ex deleniti soluta commodi
+                        dolore distinctio eos at laboriosam ducimus voluptatem quasi repellat.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Arnab's Developer Protfolio</h3>
+            </div>
+            <div class="footer-seconde">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            www.arnabsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer','Web Designer'],
+            typeSpeed: 90,
+        });
+    </script>
+</body>
+
+</html>
